@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#app{
+  .mixin-fullScreen;
+  overflow: hidden;
+}
+*{
+  font-size : 14px;
+  font-family : "Microsoft YaHei";
+  margin: 0;
+  padding: 0;
+}
+html,body,.mainContent{
+  .mixin-fullScreen;
+}
+ul{
+  list-style : none;
+}
+a{
+  text-decoration : none;
+}
+.fl{
+  float : left;
+}
+.fr{
+  float: right;
+}
+.mixin-fullScreen{
+  width: 100%;
+  height: 100%;
+}
+.mixin-omit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}

@@ -1,0 +1,1 @@
+@charset "UTF-8";#app{width:100%;height:100%;overflow:hidden}*{font-size:14px;font-family:"Microsoft YaHei";margin:0;padding:0}html,body,.mainContent{width:100%;height:100%}ul{list-style:none}a{text-decoration:none}.fl{float:left}.fr{float:right}.mixin-fullScreen{width:100%;height:100%}.mixin-omit{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
