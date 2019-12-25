@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+#app{
+  .mixin-fullScreen;
+  overflow: hidden;
+}
+*{
+  font-size : 14px;
+  font-family : "Microsoft YaHei";
+  margin: 0;
+  padding: 0;
+}
+html,body,.mainContent{
+  .mixin-fullScreen;
+}
+.mainContent{
+  background: @mainMiddle;
+}
+ul{
+  list-style : none;
+}
+a{
+  text-decoration : none;
+}
+ol, ul, dl{
+  margin-bottom: 0;
+}
+.fl{
+  float : left;
+}
+.fr{
+  float: right;
+}
+.mixin-fullScreen{
+  width: 100%;
+  height: auto;
+}
+.mixinfull{
+  width: 100%;
+  height: 100%;
+}
+.mixin-omit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+.mixin-interval(@pxs){
+  padding: @pxs;
+}
+
+/*主色调*/
+@mainDeep: #212529;
+@mainMiddle: #f9f9fa;
+@mainShallow: #fff;
+
+/*文字颜色*/
+@fontDeep: #212121;
+@fontMiddle: #888;
+
+/*边框颜色*/
+@borderDeepCt: #2e313d;
+@borderDeep: #a4a4a4;
+@borderMiddle: #eee;
+@borderShallow: #f4f4f5;
+
+/*间隔*/
+@interval_5: 5px;
+@interval_10: 10px;
+@interval_20: 20px;
+@interval_30: 30px;
+@interval_40: 40px;
+
+
+@import 'mainView';
+@import 'homeView';
+@import 'projectView';

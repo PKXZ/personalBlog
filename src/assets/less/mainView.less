@@ -1,0 +1,98 @@
+.mainDiv{
+    >.ant-layout-header{
+        height: 40px;
+        line-height: 40px;
+        background: @mainDeep;
+        padding: 0 @interval_40;
+        > div{
+            display: flex;
+            flex-direction: row;
+            color: @mainShallow;
+            a{
+                height: 40px;
+                padding: 0 10px;
+                color: @mainShallow;
+                border-left: 1px solid @borderDeepCt;
+                border-right: 1px solid @borderDeepCt;
+                i{
+                    font-size: 18px;
+                    color: @mainShallow;
+                }
+            }
+            >a:hover{
+                background: @borderDeepCt;
+            }
+            >span{
+                color: @mainShallow; 
+            }
+        }
+        .textAlignC{
+            text-align: center;
+        }
+        .textAlignR{
+            text-align: right;
+        }
+    }
+    >.ant-layout-content{
+        height: auto;
+        .menuUl{
+            padding: @interval_20 interval_40;    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            li{
+                cursor: pointer;
+                width: 180px;
+                float: left;
+                text-align: center;
+                margin: @interval_10;
+                font-weight: bold;
+                a{
+                    width: 100%;
+                    color: #000;
+                    display: block;
+                    padding: @interval_10 @interval_20;
+                }
+            }
+            li:hover,.activedLi{
+                background: @fontDeep;
+                a{
+                    color: @mainShallow;
+                }
+            }
+        }
+        .menuUl:after{
+            clear:both;
+            display:block;
+            content:" ";
+        }
+        >div{
+            padding: 0 interval_40;  
+            height: auto;
+        }
+    }
+    >.ant-layout-footer{
+        height: 40px;
+        line-height: 20px;
+        background: @mainDeep;
+        padding: 0;
+        text-align: center;
+        padding: 0 @interval_40;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        >span{
+            color: @mainShallow;
+            font-size: 12px;
+            margin-right:  @interval_10;
+            p{
+                display: inline-block;
+                margin-bottom: 0;
+                font-size: 12px;
+                margin-right: 2px;
+            }
+        }
+    }
+}  
