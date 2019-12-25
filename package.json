@@ -15,7 +15,10 @@
     "lodash.defaultsdeep": "^4.6.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
+<<<<<<< HEAD
     "vue-waterfall2": "^1.9.5",
+=======
+>>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
     "vuex": "^3.0.1"
   },
   "devDependencies": {

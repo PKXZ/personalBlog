@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="homeView">
         <a-carousel arrows>
             <div
@@ -57,12 +58,16 @@
             </a-col>
         </a-row>
     </div>
+=======
+    <div></div>
+>>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
 </template>
 
 <script>
 export default {
     data(){
         return{
+<<<<<<< HEAD
             imgData: [
                 "http://pic1.win4000.com/wallpaper/4/59cde11154833.jpg",
                 "http://pic1.win4000.com/wallpaper/d/5893e0a438d76.jpg",
@@ -342,8 +347,17 @@ export default {
                     console.log('loadmore');
             }
         }
+=======
+
+        }
+    }
+>>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
 }
 </script>
 
 <style lang="less" scoped>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
 </style>
