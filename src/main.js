@@ -18,14 +18,10 @@ Vue.prototype.axios = axios;
 
 import './assets/font/iconfont.css'
 import './assets/css/common.css'
-
-<<<<<<< HEAD
 //瀑布流
 // import waterfall from 'vue-waterfall2'
 // Vue.use(waterfall)
 
-=======
->>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
 Vue.config.productionTip = false
 
 new Vue({

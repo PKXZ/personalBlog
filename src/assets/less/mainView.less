@@ -2,7 +2,7 @@
     >.ant-layout-header{
         height: 40px;
         line-height: 40px;
-        background: @mainDeep;
+        // background: @mainDeep;
         padding: 0 @interval_40;
         > div{
             display: flex;
@@ -36,7 +36,7 @@
     >.ant-layout-content{
         height: auto;
         .menuUl{
-            padding: @interval_20 interval_40;    
+            padding: @interval_20 @interval_40;    
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -83,6 +83,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        >a{
+            color: @mainShallow;
+            font-size: 12px;
+            margin-right:  @interval_10;
+        }
         >span{
             color: @mainShallow;
             font-size: 12px;

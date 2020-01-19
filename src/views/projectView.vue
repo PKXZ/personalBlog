@@ -31,19 +31,21 @@
 </template>
 
 <script>
+const pic1 = require('./../assets/img/pic1.jpg');
+const pic2 = require('./../assets/img/pic2.jpg');
+const pic3 = require('./../assets/img/pic3.jpg');
 export default {
     data(){
         return{
-            
             waterfallUl:[
                 {
                     id: 0,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: 'http://pic1.win4000.com/wallpaper/4/59cde11154833.jpg',
-                    title: '个人博客',
+                    imgSrc: pic1,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -63,10 +65,10 @@ export default {
                     id: 1,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://pic1.win4000.com/wallpaper/d/5893e0a438d76.jpg",
-                    title: '个人博客',
+                    imgSrc: pic2,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -86,10 +88,10 @@ export default {
                     id: 2,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://photo.16pic.com/00/47/75/16pic_4775024_b.jpg",
-                    title: '个人博客',
+                    imgSrc: pic3,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -109,10 +111,10 @@ export default {
                     id: 0,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: 'http://pic1.win4000.com/wallpaper/4/59cde11154833.jpg',
-                    title: '个人博客',
+                    imgSrc: pic1,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -132,10 +134,10 @@ export default {
                     id: 1,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://pic1.win4000.com/wallpaper/d/5893e0a438d76.jpg",
-                    title: '个人博客',
+                    imgSrc: pic2,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -155,10 +157,10 @@ export default {
                     id: 2,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://photo.16pic.com/00/47/75/16pic_4775024_b.jpg",
-                    title: '个人博客',
+                    imgSrc: pic3,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -178,10 +180,10 @@ export default {
                     id: 0,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: 'http://pic1.win4000.com/wallpaper/4/59cde11154833.jpg',
-                    title: '个人博客',
+                    imgSrc: pic1,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -201,10 +203,10 @@ export default {
                     id: 1,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://pic1.win4000.com/wallpaper/d/5893e0a438d76.jpg",
-                    title: '个人博客',
+                    imgSrc: pic2,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -224,10 +226,10 @@ export default {
                     id: 2,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://photo.16pic.com/00/47/75/16pic_4775024_b.jpg",
-                    title: '个人博客',
+                    imgSrc: pic3,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',
@@ -247,10 +249,10 @@ export default {
                     id: 2,
                     icon: 'icon-tupian',
                     type: 'img',
-                    imgSrc: "http://photo.16pic.com/00/47/75/16pic_4775024_b.jpg",
-                    title: '个人博客',
+                    imgSrc: pic1,
+                    title: '学习记录',
                     time: '2019.12.08',
-                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的个人博客项目',
+                    dec: '采用BS架构，VueJs作为框架，ElementUI作为ui库的一款独立自主开发的学习记录项目',
                     operate:[
                         {
                             icon: 'icon-icon',

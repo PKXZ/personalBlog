@@ -2,7 +2,8 @@
 
 #app{
   .mixin-fullScreen;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 *{
   font-size : 14px;
@@ -10,27 +11,18 @@
   margin: 0;
   padding: 0;
 }
-html,body,.mainContent{
+html,body{
   .mixin-fullScreen;
 }
-<<<<<<< HEAD
-.mainContent{
-  background: @mainMiddle;
-}
-=======
->>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
+// .mainContent{
+//   background: @mainMiddle;
+// }
 ul{
   list-style : none;
 }
 a{
   text-decoration : none;
 }
-<<<<<<< HEAD
-ol, ul, dl{
-  margin-bottom: 0;
-}
-=======
->>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
 .fl{
   float : left;
 }
@@ -39,13 +31,10 @@ ol, ul, dl{
 }
 .mixin-fullScreen{
   width: 100%;
-<<<<<<< HEAD
-  height: auto;
+  height: 100%;
 }
 .mixinfull{
   width: 100%;
-=======
->>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
   height: 100%;
 }
 .mixin-omit{
@@ -53,7 +42,6 @@ ol, ul, dl{
   text-overflow: ellipsis;
   white-space: nowrap; 
 }
-<<<<<<< HEAD
 .mixin-interval(@pxs){
   padding: @pxs;
 }
@@ -84,5 +72,3 @@ ol, ul, dl{
 @import 'mainView';
 @import 'homeView';
 @import 'projectView';
-=======
->>>>>>> 71306c5be7c6f18e5057760e21b9ee1ecf016b9d
